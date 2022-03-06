@@ -1,6 +1,5 @@
 # pamfur-task
-
-The Front End Assigment
+A React application of managing events
 
 <a href="#">
 <img style="width: 200px;" src="./demos/page1.png" alt="">
@@ -17,9 +16,6 @@ The Front End Assigment
 [View Live on Codesanbox](https://codesandbox.io/s/github/youngsterjaidev/pamfur-task)
 
 ## Installation
-
 - Clone the Repositry
 - npm install
 - npm start
-
-## Notes
