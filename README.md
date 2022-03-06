@@ -11,7 +11,7 @@ The Front End Assigment
 </a>
 
 <a href="#">
-<img src="./demos/page3.png" alt="">
+<img src="./demos/page4.png" alt="">
 </a>
 
 ## Installation
