@@ -2,7 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { AiOutlineClose } from "react-icons/ai";
 import { IoIosArrowBack, IoIosAttach } from "react-icons/io";
-import { IoPeopleOutline, IoLocationOutline } from "react-icons/io5";
+import {
+  IoPeopleOutline,
+  IoLocationOutline,
+  IoAddCircleOutline,
+  IoAccessibilityOutline
+} from "react-icons/io5";
 import { FiClock } from "react-icons/fi";
 import { Illustrations } from "../assets";
 
@@ -60,6 +65,8 @@ const ContentNavbar = styled.div`
   place-items: center;
   position: sticky;
   top: 0;
+  z-index: 1;
+  background-color: #fff;
   padding: 0.5rem 1rem;
   border-bottom: 1px solid #ddd;
 `;
@@ -69,11 +76,19 @@ const Form = styled.form`
 `;
 
 const Input = styled.input`
-  padding: 0.6rem;
+  padding: 1rem;
   width: 100%;
-  background: #2b4047;
+  border: none;
+  background: #f0f0f0;
   border-radius: 1rem;
-  opacity: 0.1;
+
+  &:focus {
+    outline: 2px solid #ddd;
+  }
+
+  &:active {
+    outline: 2px solid #eee;
+  }
 
   &:placeholder-shown {
     color: #bbbbbb;
@@ -139,7 +154,10 @@ const NewEvent: React.FC<Props> = ({ setToggleNewEvent }) => {
           </div>
         </Stripe>
         <Stripe>
-          <div>Agenda</div>
+          <Row>
+            <IoAddCircleOutline size={24} />
+            Agenda
+          </Row>
           <div>
             <img src={Illustrations.Forward} alt="" />
           </div>
