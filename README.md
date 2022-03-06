@@ -3,7 +3,7 @@
 The Front End Assigment
 
 <a href="#">
-<img src="./demos/page1.png" alt="">
+<img style="width: 100px;" src="./demos/page1.png" alt="">
 </a>
 
 <a href="#">
