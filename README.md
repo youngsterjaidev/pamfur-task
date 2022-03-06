@@ -14,6 +14,8 @@ The Front End Assigment
 <img style="width: 200px;" src="./demos/page4.png" alt="">
 </a>
 
+[View Live on Codesanbox](https://codesandbox.io/s/github/youngsterjaidev/pamfur-task)
+
 ## Installation
 
 - Clone the Repositry
